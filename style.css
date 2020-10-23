@@ -1,0 +1,42 @@
+body {
+    background: #eee;
+}
+
+#content {
+    width: 1170px;
+    background: #fff;
+    padding: 20px;
+    padding- top: 0;
+    font-family: calibri;
+    font-size: 20px;
+    color: #445;
+    margin: 0 auto;
+    max-height: 250px;
+    overflow: hidden;
+    /* Set transitions up. */
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max—height 0.7s;
+}
+
+#content.open {
+    max-height: 2000px;
+    /* Set transitions up. */
+    -webkit-transition: max-height 0.7s;
+    -moz-transition: max-height 0.7s;
+    transition: max-height 0.7s;
+}
+
+#show-more {
+    background: #e70eb1e0;
+    color: rgb(255, 255, 255);
+    font-family: calibri;
+    display: block;
+    width: 150px;
+    font-size: 20px;
+    text-transform: uppercase;
+    padding: 10px;
+    text-align: center;
+    margin: 20px auto;
+    cursor: pointer;
+}
